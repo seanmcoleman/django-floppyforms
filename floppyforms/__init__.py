@@ -13,11 +13,11 @@ try:
 except ImportError:
     pass
 
-try:
+# try:
     from . import gis
-except Exception:
-    import warnings
-    warnings.warn(
-        "Unable to import floppyforms.gis, geometry widgets not available")
+# except Exception:
+#     import warnings
+#     warnings.warn(
+#         "Unable to import floppyforms.gis, geometry widgets not available")
 
 __version__ = '1.7.1.dev1'
